@@ -22,7 +22,7 @@ The dataset contains multiple rows per product (one per size/SKU), which caused 
 Key modeling decisions:
 
 - Used `DISTINCTCOUNT(product_id)` for all product-level counts
-- Avoided unreliable flags like `is_on_sale` — derived sale logic directly from pricing fields instead
+- Avoided unreliable flags like `is_on_sale` derived sale logic directly from pricing fields instead
 - Built explicit DAX measures for:
   - Total Products
   - Available Products
@@ -59,7 +59,7 @@ A single-page overview designed for quick exploration of the product catalog.
 - Footwear and apparel dominate the Nike product catalog
 - Most products fall within mid-range pricing segments
 - A significant share of products carry sale prices, though discount signals required derived logic due to inconsistent flags
-- SKU-level granularity in the raw data is the primary source of data quality issues — deduplication at the product level is essential
+- SKU-level granularity in the raw data is the primary source of data quality issues deduplication at the product level is essential
 
 ---
 
@@ -74,7 +74,7 @@ A single-page overview designed for quick exploration of the product catalog.
 
 ## Why This Project
 
-The goal was not simply to build charts — it was to work through the full pipeline of a messy, real-world dataset:
+The goal was not simply to build charts it was to work through the full pipeline of a messy, real-world dataset:
 
 1. Identify and fix structural data quality issues
 2. Apply correct aggregation logic to avoid misleading numbers
@@ -85,6 +85,6 @@ The goal was not simply to build charts — it was to work through the full pipe
 
 ## Notes
 
-- The dataset operates at SKU level. Counting rows directly inflates product counts — always aggregate at `product_id` level.
+- The dataset operates at SKU level. Counting rows directly inflates product counts always aggregate at `product_id` level.
 - Some fields (e.g. discount indicators) were inconsistent across records and could not be used directly.
 - Raw data is excluded from this repo due to file size. A sample or the cleaned export can be provided on request.
