@@ -3,6 +3,12 @@
 
 This project analyzes Nike's product catalog at a granular SKU level (1.4M+ records), requiring careful preprocessing before insights could be derived. The final output is a single-page Power BI dashboard providing a clean overview of product distribution, pricing, and availability.
 
+## Data & Files
+Due to file size limitations, all project files are hosted externally:
+
+Download Project Files (Power BI + Datasets):
+https://drive.google.com/drive/folders/1aC-RL-6Fin11OcpqxamOb7_qKBZtNJCW?usp=drive_link
+
 ## Data Cleaning (Python / Pandas)
 
 The raw dataset required significant preprocessing before it was usable:
