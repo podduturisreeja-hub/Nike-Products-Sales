@@ -1,7 +1,7 @@
 # Nike-Products-Sales
 # Nike Product Analytics Dashboard
 
-![Dashboard Preview]("C:\Users\sreej\OneDrive\Desktop\Power BI PROJECT\Nike Sales Dashboard.png")
+![Dashboard Screenshot](NikeSalesDasboard.png)
 
 ## Overview
 
