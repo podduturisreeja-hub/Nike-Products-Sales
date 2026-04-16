@@ -1,4 +1,8 @@
 # Nike-Products-Sales
+# Nike Product Analytics Dashboard
+
+![Dashboard Preview]("C:\Users\sreej\OneDrive\Desktop\Power BI PROJECT\Nike Sales Dashboard.png")
+
 ## Overview
 
 This project analyzes Nike's product catalog at a granular SKU level (1.4M+ records), requiring careful preprocessing before insights could be derived. The final output is a single-page Power BI dashboard providing a clean overview of product distribution, pricing, and availability.
