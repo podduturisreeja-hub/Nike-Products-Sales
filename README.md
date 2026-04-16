@@ -1,7 +1,6 @@
 # Nike-Products-Sales
 # Nike Product Analytics Dashboard
 
-![Dashboard Screenshot](images/NikeSalesDasboard.png)
 
 ## Overview
 
