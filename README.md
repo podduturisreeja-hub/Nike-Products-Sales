@@ -1,6 +1,6 @@
 # Nike-Products-Sales
 # Nike Product Analytics Dashboard
-![Nike-Products-Sales](/Nike Sales Dashboard.png)
+![Nike Dashboard](Nike-Products-Sales/Nike-Dashboard.png)
 
 ## Overview
 
